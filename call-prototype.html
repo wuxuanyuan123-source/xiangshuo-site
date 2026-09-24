@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#ffffff"><title>想说 · 通话辅助草稿</title><link rel="manifest" href="./manifest.webmanifest"><link rel="icon" type="image/svg+xml" href="./icons/xiangshuo.svg"><link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">  <script type="module" crossorigin src="./assets/call-BMTLimOr.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/font-settings-BXKN17ay.js">
+  <link rel="stylesheet" crossorigin href="./assets/font-settings-BSwj6OLX.css">
+  <link rel="stylesheet" crossorigin href="./assets/call-BD-jgIfd.css">
+</head>
+<body><main class="phone">
+<header><strong>通话辅助</strong><span class="badge" title="未接入真实通话，不收音、不播音">模拟通话</span></header>
+<section id="conversation" aria-label="模拟对话记录" tabindex="0"><p class="caption">对方的话</p><article><p>我们明天下午三点见，可以吗？</p><small>14:20</small></article><article><p>还是在上次那家咖啡店。</p><small>14:21</small></article></section>
+<footer id="composer"><label class="sr-only" for="reply">回复内容</label><textarea id="reply" lang="zh-CN" inputmode="text" rows="1" maxlength="500" placeholder="输入想说的话…"></textarea><div class="actions"><button id="openLibrary" aria-haspopup="dialog" aria-controls="replySheet">回应库</button><button id="sendReply" class="primary" disabled aria-label="发送回应（仅演示，不会发出声音）">发送</button></div></footer>
+
+<p id="status" class="sr-only" role="status" aria-live="polite"></p>
+</main>
+<dialog id="replySheet" aria-labelledby="sheetTitle"><div class="handle" aria-hidden="true"></div><div class="sheet-title"><h2 id="sheetTitle">回应库</h2><button id="closeLibrary">收起</button></div><div id="replyList"></div><p id="libraryInfo" class="note"></p></dialog></body></html>
