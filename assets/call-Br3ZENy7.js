@@ -1,4 +1,4 @@
-import"./font-settings-Cnw3QPJt.js";const $=`# Rime dictionary
+import"./font-settings-CSUtlc9c.js";const $=`# Rime dictionary
 # encoding: utf-8
 #
 # A minimal Pinyin dictionary for simplified Chinese script
